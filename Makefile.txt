@@ -1,0 +1,5 @@
+all: asl.cpp
+    g++ main.cpp -o  asl -lopencv_legacy -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_video -lopencv_flann -lpthread -lrt 
+
+clean:
+    rm -rf asl
